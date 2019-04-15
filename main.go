@@ -11,7 +11,7 @@ func main() {
 	// Load and parse the data from csv files
 	fmt.Println("Loading data...")
 
-	trainData, err := base.ParseCSVToInstances("data/fashion-mnist_train2.csv", true)
+	trainData, err := base.ParseCSVToInstances("data/fashion-mnist_train.csv", true)
 	if err != nil {
 		panic(err)
 	}
